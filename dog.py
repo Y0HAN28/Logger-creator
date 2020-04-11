@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # coding=utf-8
-import socket,struct,os,sys,time,yagmail
+
 
 def slowprint(s):
     for c in s + '\n':
@@ -69,4 +69,4 @@ def main():
 		print('\x1b[00mCommand not found\x1b[91m!')
 		main()
 
-header()
+head()
