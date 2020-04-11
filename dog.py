@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # coding=utf-8
-import socket,struct,os,sys,time,yagmail
+
 
 def slowprint(s):
     for c in s + '\n':
